@@ -1,0 +1,14 @@
+<div class="mainContent">
+    <div class="login">
+        <div class="inputs">
+            <label for="EMAIL" >Email</label>
+            <input type="email" name="Email" [formControl] = "fcEmail">
+            <label for="PASSWORD">Password</label>
+            <input type="password" name="PASSWORD" [formControl] = "fcPassword">
+        </div>
+        <button (click) = "login()">Log In</button>
+        <div>
+            <button (click) = "nav('register')">No account yet? Create an account</button>
+        </div>
+    </div>
+  </div>
